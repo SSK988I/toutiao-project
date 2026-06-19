@@ -1,0 +1,6 @@
+# MCP 配置(含数据库密码等敏感信息,切勿提交)
+.mcp.json
+
+# 操作系统
+.DS_Store
+Thumbs.db
