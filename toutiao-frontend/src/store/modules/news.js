@@ -131,7 +131,7 @@ export const useNewsStore = defineStore('news', {
         
 
         // 实际项目中连接后端API的代码，取消注释即可使用
-        const response = await axios.get(`${apiConfig.baseURL}/api/news/detail?id=${id}`);
+        const response = await axios.get(`${apiConfig.baseURL}/api/news/detail?newsId=${id}`);
         
         if (response.data && response.data.code === 200) {
           // 设置新闻详情数据
